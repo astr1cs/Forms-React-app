@@ -45,6 +45,7 @@ const onSubmit =(data:any) => {console.log(data);  }
              type="text" className="form-control" style={{width:"200px"}}/>
 
               {errors.category && <p className="text-danger">{errors.category.message}</p>}
+              
             </div>
 
 
